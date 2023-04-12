@@ -1,0 +1,10 @@
+template<class T>
+void printVector(vector<T> v) {
+    for(auto n:v) {
+        cout<<n<<" ";
+    }
+    cout<<endl;
+    // for(auto n:v) {
+    //     cout<<n<<endl;
+    // }
+}

@@ -1,0 +1,4 @@
+cout << setprecision(4)<< bb<<endl; // 设置精度, 一直有效; #include <iomanip> //需要包含的头文件
+cout << fixed << setprecision(4) << bb << endl; // fixed表示按小数点后保留4位小数，没有fixed则是4位有效数字；一直有效；
+cout.unsetf(ios::fixed); // 取消fixed;
+cout.precision(6); // 恢复默认精度;

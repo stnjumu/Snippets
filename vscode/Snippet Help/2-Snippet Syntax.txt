@@ -1,0 +1,10 @@
+/*see more at https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax
+TabStops: \$1, \$2 for cursor locations, \$0 for final cursor position.
+--\$1等可出现多次，多处会同时改变；
+--Snippet要显示特殊字符,例如\$,可使用反斜杠+特殊字符形式，就如此Snippet所示
+Placeholders: \${1:foo} set the default value of \$1
+Choice: \${1|one,two,three|} set the choice value of \$1
+--在\$1等出现多次时，默认值和默认选项可只在第一处设置；
+Variables: \$name or \${name:default} for variables, like 文件名：TM_FILENAME, 小时：CURRENT_HOUR等
+--see more in link
+*/

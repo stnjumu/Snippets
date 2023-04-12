@@ -1,0 +1,4 @@
+// vector的成员函数用法
+// TODO
+vector<int> v{1,2,3,4};
+v.erase(v.begin(),v.begin()+2); // 删除前两个;

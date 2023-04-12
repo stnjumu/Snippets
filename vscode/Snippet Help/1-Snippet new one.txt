@@ -1,0 +1,3 @@
+snippet中使用相对缩进，会根据要插入的位置相应调整，所以构建snippet时只需要相对无缩进进行缩进即可。
+特别注意选中代码段右键New Snippet和New Snippet from ClipBoard需要去掉一部分缩进。
+推荐新建后立即插入一个试试；

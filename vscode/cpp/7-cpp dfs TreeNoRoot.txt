@@ -1,0 +1,13 @@
+const int N=100001;
+vector<vector<int>> edges(N+1, vector<int>()); // edges[i] = {j1, j2, ...}表示无向边i-j1, i-j2
+vector<int> dist(100001); // 距离数组；
+void dfs_Tree(int u, int par) {
+    // 在不确定方向的Tree的某节点开始上dfs，确定到u距离
+    for (auto v : edges[u]) { // u-v
+        if (v == par) {
+            continue;
+        }
+        dist[v] = dist[u] + 1;
+        dfs_Tree(v, u);
+    }
+}
